@@ -47,7 +47,7 @@ app.use(cookie());
 app.use("/uploads", express.static("uploads"));
 
 //PORT
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 
 //api
 // app.get("/", (req, res) => {
